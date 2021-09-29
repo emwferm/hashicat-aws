@@ -48,3 +48,11 @@ variable "placeholder" {
   default     = "placekitten.com"
   description = "Image-as-a-service URL. Some other fun ones to try are fillmurray.com, placecage.com, placebeard.it, loremflickr.com, baconmockup.com, placeimg.com, placebear.com, placeskull.com, stevensegallery.com, placedog.net"
 }
+
+variable "AWS_ACCESS_KEY_ID" {
+  description = "Variable definition for AWS Credentials"
+}
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "Variable definition for AWS Credentials"
+}
