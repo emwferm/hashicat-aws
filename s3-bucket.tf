@@ -3,7 +3,7 @@ module "s3-bucket" {
   version = "2.2.0"
   # insert required variables here
 
-  bucket = "s3-db-bucket"
+  #bucket = "s3-db-bucket"
   bucket_prefix = "emwferm"
   acl    = "private"
 
